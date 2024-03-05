@@ -43,6 +43,7 @@ copiar.addEventListener('click', function(){
         } catch (error) {
             console.log('error al copiar');
         }
+    console.log('probando');
 });
 
 
