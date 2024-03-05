@@ -1,0 +1,130 @@
+*{
+    background-color: black;
+    
+}
+@media only screen and (max-width:480px){
+    #logoAluraId{
+        margin-left: -6%;
+    }
+    #section1{
+        display: block;
+        margin-bottom: 2%;
+    }
+    #areaIngresar{
+        width: 70%;
+        height: 150px;
+        margin-bottom: 5%;
+    }
+   
+    .areaMostrar{
+        width: 70%;
+        height: 150px;
+        background-size: 50%;
+    }
+    #section2{
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+        max-width: 100%;
+    }
+    #blockeBotones{
+        width: 200%;
+    }
+    #botonEncriptar,#desencriptar{
+        width: 80%;
+    }
+    #copiar{
+        width: 70%;
+    }
+   
+    
+}
+
+.logoAlura{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 1%;
+}
+
+.divIngresar,.divMostrar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.areaIngresar,.areaMostrar{
+  border-radius: 30px;
+  padding: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 0px 50px red;
+  border: none;
+  text-transform: lowercase;
+  width: 70%;
+}
+
+.areaMostrar{
+    background-image: url("imagenes/Muñeco.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.areaIngresar,.areaMostrar:focus{
+    outline: none;
+}
+
+h6{
+    color: rgb(250, 250, 250);
+    margin: 1% 0% 1% 5%;
+    font-size: 15px;
+    font-weight: normal;
+}
+.section2{
+   display: flex;
+   max-width: 100%;
+
+}
+.blockeBotones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.botones{
+    background-color: rgb(227, 42, 42);
+    width: 40%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#desencriptar{
+    background-color: aqua;
+}
+.contenedorBtn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btnCopiar{
+    background-color: rgb(69, 132, 36);
+    width: 40%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+h3{
+    color: rgb(43, 118, 184);
+    display: flex;
+    justify-content: center;
+}
