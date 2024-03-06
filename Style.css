@@ -103,6 +103,11 @@ h6{
     font-size: 15px;
     border-radius: 20px;
     font-weight: bold;
+    cursor: pointer;
+}
+.botones:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
 #desencriptar{
     background-color: aqua;
@@ -120,7 +125,12 @@ h6{
     border-radius: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
     
+}
+.btnCopiar:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
 
 h3{
