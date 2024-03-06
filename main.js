@@ -2,7 +2,6 @@ const botonEncriptar=document.getElementById('botonEncriptar');
 const botonDesencriptar=document.getElementById('desencriptar');
 const copiar=document.getElementById('copiar');
 const areaMostrar=document.getElementById('marginArea');
-var valorAreaMostrar=areaMostrar.value;
 
 var encriptar;
 var encriptarMin;
