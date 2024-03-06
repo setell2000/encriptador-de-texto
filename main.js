@@ -1,6 +1,8 @@
 const botonEncriptar=document.getElementById('botonEncriptar');
 const botonDesencriptar=document.getElementById('desencriptar');
 const copiar=document.getElementById('copiar');
+const areaMostrar=document.getElementById('marginArea');
+var valorAreaMostrar=areaMostrar.value;
 
 var encriptar;
 var encriptarMin;
@@ -19,7 +21,8 @@ botonEncriptar.addEventListener('click', function(){
     .replaceAll("u","ufat");
 
     marginArea.value=encriptarMin;
-
+    areaIngresar.value="";
+    areaMostrar.style.backgroundImage="none";
 
 });
 botonDesencriptar.addEventListener('click', function(){
@@ -34,6 +37,8 @@ botonDesencriptar.addEventListener('click', function(){
     .replaceAll("ufat","u")
 
     marginArea.value=desencriptar;
+    areaIngresar.value="";
+    areaMostrar.style.backgroundImage="none";
 })
 
 copiar.addEventListener('click', function(){
@@ -43,7 +48,8 @@ copiar.addEventListener('click', function(){
         } catch (error) {
             console.log('error al copiar');
         }
-    
+    marginArea.value="";
+    areaMostrar.style.backgroundImage="url('imagenes/Muñeco.png')";
 });
 
 
